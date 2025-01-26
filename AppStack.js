@@ -16,7 +16,7 @@ const AppStack = () => {
                         if (route.name === 'Home') {
                             iconName = focused ? 'home' : 'home-outline';
                         } else if (route.name === 'Add') {
-                            iconName = focused ? 'add' : 'person-outline';
+                            iconName = focused ? 'add' : 'add-outline';
                         }
                         return <Ionicons name={iconName} size={size} color={color} />;
                     },
