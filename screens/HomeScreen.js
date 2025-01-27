@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Button, FlatList, StyleSheet } from 'react-native';
 
-const HomePage = ({  items, setItems }) => {
+const HomeScreen = ({  items, setItems }) => {
   const toggleStrikeOff = (id) => {
     setItems(
       items.map((item) =>
@@ -53,4 +53,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomePage;
+export default HomeScreen;
